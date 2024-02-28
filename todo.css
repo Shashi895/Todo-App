@@ -1,0 +1,49 @@
+.main{
+  border: 5px solid gray;
+  height: auto;
+  width: 100%;
+  padding-bottom: 30px;
+}
+.main-heading{
+  text-align: center;
+  color: rgb(167, 122, 62);
+  /* font:; */
+}
+.todo-grid{
+  display:grid;
+  grid-template-columns: 200px 150px 100px;
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-top: 10px; 
+  align-items: center;
+
+
+}
+#main-input,#todo-date{
+  font-size: 15px;
+  padding: 10px 5px;
+}
+
+.btn{
+  padding: 15px 0px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background: green;
+  font-weight: bold;
+  cursor: pointer;
+  
+
+}
+
+.js-del-btn{
+  padding: 15px 0px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background: rgb(174, 72, 72);
+  font-weight: bold;
+  cursor: pointer;
+
+}
